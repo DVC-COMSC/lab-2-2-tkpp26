@@ -1,5 +1,5 @@
 def main():
-    workhours = int(input('Enter your work hours: '))  #think of input validation (over 40)
+    workhours = int(input('Enter your work hours: '))  # Assume that the workhour is greater than 40
     reg_hours = 40
     reg_rate = 18.25
     ov_rate = 27.78
@@ -12,8 +12,8 @@ def main():
     regular_wage = reg_hours * reg_rate
     total_wage = regular_wage + overtime_wage
 
-    print(f"Regular hours: {reg_hours} Regular Charge: {regular_wage}")
-    print(f"Overtime hours: {overtime} Overtime Charge: {overtime_wage:.2f}")
+    print(f"Regular Charge: {regular_wage}")
+    print(f"Overtime Charge: {overtime_wage:.2f}")
     print(f"Total wage : {total_wage:.2f}")
 
    ##################################################
